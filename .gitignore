@@ -1,0 +1,18 @@
+# 运行时分发物：体积大，且属于构建产物，通过 Release 附件分发，不进仓库
+/tools/python/
+/tools/ffmpeg/
+/dist/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# 本机 agent 配置，与项目无关
+/.opencode/

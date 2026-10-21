@@ -1,0 +1,18 @@
+* text=auto
+
+# Windows 批处理必须是 CRLF，否则 cmd.exe 解析 goto 标签可能出错
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 构建脚本在 MSYS2/bash 下运行，保持 LF
+*.sh text eol=lf
+
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+
+*.exe binary
+*.dll binary
+*.png binary
+*.ico binary
+*.zip binary

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <!-- 应用磁贴：深蓝底，圆角正方形，四周留 12px 边距 -->
+  <rect x="12" y="12" width="232" height="232" rx="44" fill="#1d2740"/>
+
+  <!-- 胶片格：亮青色横条 -->
+  <rect x="36" y="76" width="184" height="104" rx="18" fill="#31c6d9"/>
+
+  <!-- 齿孔：上排三个 -->
+  <rect x="46" y="86" width="22" height="18" rx="5" fill="#1d2740"/>
+  <rect x="84" y="86" width="22" height="18" rx="5" fill="#1d2740"/>
+  <rect x="184" y="86" width="22" height="18" rx="5" fill="#1d2740"/>
+
+  <!-- 齿孔：下排三个 -->
+  <rect x="46" y="152" width="22" height="18" rx="5" fill="#1d2740"/>
+  <rect x="84" y="152" width="22" height="18" rx="5" fill="#1d2740"/>
+  <rect x="184" y="152" width="22" height="18" rx="5" fill="#1d2740"/>
+
+  <!-- 切割线：珊瑚色斜线，贯穿胶片并伸出两端 -->
+  <path d="M 163 48 L 101 208" stroke="#ff6b52" stroke-width="16" stroke-linecap="round" fill="none"/>
+</svg>
